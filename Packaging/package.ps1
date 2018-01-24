@@ -1,1 +1,0 @@
-dotnet pack ..\VG.Serilog.Sinks.EntityFrameworkCore\VG.Serilog.Sinks.EntityFrameworkCore.csproj -c Release -o ..\Packaging
