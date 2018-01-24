@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>VG.Serilog.Sinks.EntityFrameworkCore</AssemblyName>
+    <RootNamespace>VG.Serilog.Sinks.EntityFrameworkCore</RootNamespace>
+    <Authors>Vincent Gury</Authors>
+    <Company>Vincent Gury</Company>
+    <Copyright>Copyright 2018</Copyright>
+    <Description>A Serilog sink for Entity Framework Core</Description>
+    <PackageTags>serilog sink .netcore entity framework core</PackageTags>
+    <PackageLicenseUrl>https://github.com/vincentgury/Serilog.Sinks.EntityFrameworkCore/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/vincentgury/Serilog.Sinks.EntityFrameworkCore</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/vincentgury/Serilog.Sinks.EntityFrameworkCore/master/art/icon.png</PackageIconUrl>
+    <RepositoryUrl></RepositoryUrl>
+    <RepositoryType></RepositoryType>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <Product></Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="2.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="Serilog" Version="2.6.0" />
+  </ItemGroup>
+
+</Project>

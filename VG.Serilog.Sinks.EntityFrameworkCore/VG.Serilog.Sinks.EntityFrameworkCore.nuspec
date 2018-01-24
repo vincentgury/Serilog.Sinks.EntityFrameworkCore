@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>VG.Serilog.Sinks.EntityFrameworkCore</id>
+		<version>1.0.0</version>
+		<title>Serilog Sink for Entity Framework Core</title>
+		<authors>Vincent Gury</authors>
+		<owners>Vincent Gury</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<licenseUrl>https://github.com/vincentgury/Serilog.Sinks.EntityFrameworkCore/blob/master/LICENSE</licenseUrl>
+		<projectUrl>https://github.com/vincentgury/Serilog.Sinks.EntityFrameworkCore</projectUrl>
+		<iconUrl>https://raw.githubusercontent.com/vincentgury/Serilog.Sinks.EntityFrameworkCore/master/art/icon.png</iconUrl>
+		<description>A Serilog sink for Entity Framework Core</description>
+		<summary>A Serilog sink for Entity Framework Core</summary>
+		<releaseNotes>See Changelog: https://github.com/vincentgury/Serilog.Sinks.EntityFrameworkCore/blob/master/CHANGELOG.md</releaseNotes>
+		<copyright>Copyright 2018</copyright>
+		<tags>serilog sink .netcore entity framework core</tags>
+	</metadata>
+</package>
