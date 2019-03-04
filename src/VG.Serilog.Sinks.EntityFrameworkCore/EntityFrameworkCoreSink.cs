@@ -28,8 +28,8 @@ namespace VG.Serilog.Sinks.EntityFrameworkCore
 
         public void Emit(LogEvent logEvent)
         {
-            lock (_lock)
-            {
+            //lock (_lock)
+            //{
                 if (logEvent == null)
                 {
                     return;
@@ -41,16 +41,16 @@ namespace VG.Serilog.Sinks.EntityFrameworkCore
 
                     if (context != null)
                     {
-                        context.Set<LogRecord>().Add(this.ConvertLogEventToLogRecord(logEvent));
+                        context.Set<LogRecord>().AddAsync(this.ConvertLogEventToLogRecord(logEvent));
 
-                        context.SaveChanges();
+                        context.SaveChangesAsync();
                     }
                 }
                 catch
                 {
                     // ignored
                 }
-            }
+            //}
         }
 
         private LogRecord ConvertLogEventToLogRecord(LogEvent logEvent)
